@@ -1,0 +1,87 @@
+@media all and (max-width:1024px) {
+    .discount, .bottle, .woman {
+        display: none;
+    }
+
+    .sales-content {
+        flex-wrap: wrap;
+    }
+
+    .results, .discount {
+        width:100%;
+    }
+
+    .form {
+        width: 100%;
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    form {
+        width: 95%;
+        max-width: 630px;
+    }
+
+    .pleasure-txt {
+        width: 100%;
+        text-align: center
+    }
+}
+
+@media all and (max-width:768px) {
+    .pros, .panto-bottle {
+        display: none;
+    }
+
+    .logo, .advs-item, .advs, .doctor-text{
+        width: 100%;
+    }
+
+    .logo a {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        background: rgba(1, 1, 1, 0.8);
+    }
+
+    .answers {
+        flex-direction: column;
+    }
+
+    .answers-btn {
+        width: 90%;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .poll-window {
+        padding: 5px;
+    }
+
+    .doctor-opinion, .advantages {
+        background-image: none;
+    }
+}
+
+@media all and (max-width:425px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+
+    h4 {
+        text-align: center
+    }
+
+    .bg {
+        padding: 10px;
+    }
+}
